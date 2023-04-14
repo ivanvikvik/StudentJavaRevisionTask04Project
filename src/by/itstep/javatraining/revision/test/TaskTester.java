@@ -245,4 +245,26 @@ public class TaskTester {
 
         return "Task 06 [Boxes] " + (result ? RIGHT : WRONG);
     }
+
+    public static String testingTask07() {
+
+        boolean result = Task07.task07(-1, 1) == 55
+                && Task07.task07(40, 2) == 24
+                && Task07.task07(0, 1) == 0
+                && Task07.task07(10, 0) == 0
+                && Task07.task07(1, 1) == 1
+                && Task07.task07(2, 1) == 2
+                && Task07.task07(2, 2) == 4
+                && Task07.task07(-2, 1) == 54
+                && Task07.task07(-2, 2) == 52
+                && Task07.task07(10, 1000) == 32
+                && Task07.task07(-10, 1000) == 24
+                && Task07.task07(-1000, 10) == 24
+                && Task07.task07(1000, 10) == 32
+
+                && Task07.task07(10, -1) == -1
+                && Task07.task07(-10, -1) == -1;
+
+        return "Task 07 [Minsk Ring Road] " + (result ? RIGHT : WRONG);
+    }
 }
