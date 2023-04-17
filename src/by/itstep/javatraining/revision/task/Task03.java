@@ -32,6 +32,9 @@ package by.itstep.javatraining.revision.task;
  *
  *	[ input 5]: 0 52 6 43
  *	[output 5]: -1
+ *
+ *	[ input 6]: 10 20 6 21
+ *	[output 6]: -1 
  */
 
 public class Task03 {
