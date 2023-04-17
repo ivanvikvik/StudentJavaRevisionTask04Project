@@ -69,6 +69,20 @@ public class TaskTester {
     public static String testingTask03() {
         boolean result = Task03.task03(23, 52, 8, 43) == 8
                 && Task03.task03(14, 7, 6, 11) == 1
+            
+                && Task03.task03(23, 52, -1, 43) == -1
+		        && Task03.task03(0, 52, 6, 43) == -1
+		        && Task03.task03(23, 52, -1, 43) == -1
+		        && Task03.task03(0, 52, 6, 43) == -1
+		        && Task03.task03(24, 10, 8, -24) == -1
+		        && Task03.task03(-24, 10, 8, 24) == -1
+		        && Task03.task03(24, -10, 8, 24) == -1
+		        && Task03.task03(24, 0, 8, 24) == -1
+		        && Task03.task03(24, 10, 9, 25) == -1
+		        && Task03.task03(10, 24, 9, 25) == -1
+		        && Task03.task03(14, 10, 11, 7) == -1
+		        && Task03.task03(10, 14, 11, 7) == -1
+    
                 && Task03.task03(23, 52, 0, 43) == 0
                 && Task03.task03(7, 14, 6, 11) == 1
                 && Task03.task03(14, 8, 4, 8) == 4
