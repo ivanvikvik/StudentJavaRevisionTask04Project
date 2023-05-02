@@ -69,20 +69,18 @@ public class TaskTester {
     public static String testingTask03() {
         boolean result = Task03.task03(23, 52, 8, 43) == 8
                 && Task03.task03(14, 7, 6, 11) == 1
-            
+
                 && Task03.task03(23, 52, -1, 43) == -1
-		        && Task03.task03(0, 52, 6, 43) == -1
-		        && Task03.task03(23, 52, -1, 43) == -1
-		        && Task03.task03(0, 52, 6, 43) == -1
-		        && Task03.task03(24, 10, 8, -24) == -1
-		        && Task03.task03(-24, 10, 8, 24) == -1
-		        && Task03.task03(24, -10, 8, 24) == -1
-		        && Task03.task03(24, 0, 8, 24) == -1
-		        && Task03.task03(24, 10, 9, 25) == -1
-		        && Task03.task03(10, 24, 9, 25) == -1
-		        && Task03.task03(14, 10, 11, 7) == -1
-		        && Task03.task03(10, 14, 11, 7) == -1
-    
+                && Task03.task03(0, 52, 6, 43) == -1
+                && Task03.task03(24, 10, 8, -24) == -1
+                && Task03.task03(-24, 10, 8, 24) == -1
+                && Task03.task03(24, -10, 8, 24) == -1
+                && Task03.task03(24, 0, 8, 24) == -1
+                && Task03.task03(24, 10, 9, 25) == -1
+                && Task03.task03(10, 24, 9, 25) == -1
+                && Task03.task03(14, 10, 11, 7) == -1
+                && Task03.task03(10, 14, 11, 7) == -1
+
                 && Task03.task03(23, 52, 0, 43) == 0
                 && Task03.task03(7, 14, 6, 11) == 1
                 && Task03.task03(14, 8, 4, 8) == 4
@@ -149,6 +147,24 @@ public class TaskTester {
                 && !Task05.task05(2, 1, 1, 1, 1, 1)
                 && !Task05.task05(1, 2, 1, 1, 1, 1)
                 && !Task05.task05(1, 1, 2, 1, 1, 1)
+
+                && !Task05.task05(5, 12, 8, 15, 16, 2)
+                && !Task05.task05(5, 8, 12, 15, 16, 2)
+                && !Task05.task05(12, 5, 8, 15, 16, 2)
+                && !Task05.task05(12, 8, 5, 15, 16, 2)
+                && !Task05.task05(8, 5, 12, 15, 16, 2)
+                && !Task05.task05(8, 12, 5, 15, 16, 2)
+                && !Task05.task05(5, 12, 8, 15, 2, 16)
+                && !Task05.task05(5, 12, 8, 16, 15, 2)
+                && !Task05.task05(5, 12, 8, 16, 2, 15)
+                && !Task05.task05(5, 12, 8, 2, 16, 15)
+                && !Task05.task05(5, 12, 8, 2, 15, 16)
+
+                && !Task05.task05(3, 7, 11, 1, 9, 11)
+                && !Task05.task05(7, 11, 3, 1, 9, 11)
+                && !Task05.task05(11, 3, 7, 1, 9, 11)
+                && !Task05.task05(3, 7, 11, 9, 11, 1)
+                && !Task05.task05(3, 7, 11, 11, 1, 9)
 
                 && Task05.task05(4, 5, 6, 6, 5, 6)
                 && Task05.task05(6, 4, 5, 6, 5, 6)
@@ -245,6 +261,24 @@ public class TaskTester {
                 && Task06.task06(3, 11, 5, 7, 4, 9).trim().equalsIgnoreCase("Boxes are incomparable.")
                 && Task06.task06(3, 11, 5, 9, 7, 4).trim().equalsIgnoreCase("Boxes are incomparable.")
                 && Task06.task06(3, 11, 5, 9, 4, 7).trim().equalsIgnoreCase("Boxes are incomparable.")
+
+                && Task06.task06(5, 12, 8, 15, 16, 2).trim().equalsIgnoreCase("Boxes are incomparable.")
+                && Task06.task06(5, 8, 12, 15, 16, 2).trim().equalsIgnoreCase("Boxes are incomparable.")
+                && Task06.task06(12, 5, 8, 15, 16, 2).trim().equalsIgnoreCase("Boxes are incomparable.")
+                && Task06.task06(12, 8, 5, 15, 16, 2).trim().equalsIgnoreCase("Boxes are incomparable.")
+                && Task06.task06(8, 5, 12, 15, 16, 2).trim().equalsIgnoreCase("Boxes are incomparable.")
+                && Task06.task06(8, 12, 5, 15, 16, 2).trim().equalsIgnoreCase("Boxes are incomparable.")
+                && Task06.task06(5, 12, 8, 15, 2, 16).trim().equalsIgnoreCase("Boxes are incomparable.")
+                && Task06.task06(5, 12, 8, 16, 15, 2).trim().equalsIgnoreCase("Boxes are incomparable.")
+                && Task06.task06(5, 12, 8, 16, 2, 15).trim().equalsIgnoreCase("Boxes are incomparable.")
+                && Task06.task06(5, 12, 8, 2, 16, 15).trim().equalsIgnoreCase("Boxes are incomparable.")
+                && Task06.task06(5, 12, 8, 2, 15, 16).trim().equalsIgnoreCase("Boxes are incomparable.")
+
+                && Task06.task06(3, 7, 11, 1, 9, 11).trim().equalsIgnoreCase("Boxes are incomparable.")
+                && Task06.task06(7, 11, 3, 1, 9, 11).trim().equalsIgnoreCase("Boxes are incomparable.")
+                && Task06.task06(11, 3, 7, 1, 9, 11).trim().equalsIgnoreCase("Boxes are incomparable.")
+                && Task06.task06(3, 7, 11, 9, 11, 1).trim().equalsIgnoreCase("Boxes are incomparable.")
+                && Task06.task06(3, 7, 11, 11, 1, 9).trim().equalsIgnoreCase("Boxes are incomparable.")
 
                 && Task06.task06(3, 0, 5, 4, 7, 9).trim().equalsIgnoreCase("Error.")
                 && Task06.task06(3, 11, 0, 4, 7, 9).trim().equalsIgnoreCase("Error.")

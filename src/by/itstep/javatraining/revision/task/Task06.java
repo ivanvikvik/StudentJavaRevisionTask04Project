@@ -47,6 +47,6 @@ package by.itstep.javatraining.revision.task;
 
 public class Task06 {
     public static String task06(int a1, int b1, int c1, int a2, int b2, int c2) {
-        return "Error";
+        return "Error.";
     }
 }
