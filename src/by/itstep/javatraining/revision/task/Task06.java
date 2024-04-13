@@ -16,15 +16,15 @@ package by.itstep.javatraining.revision.task;
  *	4)	не забудьте про "защиту от дурака": все величины должны быть больше нуля.
  *
  *	Формат входных данных
- *	Программа получает на вход шесть целых чисел в диапазоне типа int.
+ *	Метод получает на вход шесть целых чисел типа int.
  *
  *	Формат выходных данных
- *	Возвратите одну из следующих строчек:
- *	1) "Boxes are equal." - если коробки одинаковые,
- *	2) "The first box is smaller than the second one." - если первая коробка может быть положена во вторую,
- *	3) "The first box is larger than the second one." - если вторая коробка может быть положена в первую,
- *	4) "Boxes are incomparable." - во всех остальных случаях.
- *  5) "Error." - если размеры коробок некорректны.
+ *	Метод должен возвратить одну из следующих строк:
+ *  1) "Error." - если размеры коробок некорректны.
+ *  2) "Boxes are equal." - если коробки одинаковые,
+ *	3) "The first box is smaller than the second one." - если первая коробка может быть положена во вторую,
+ *	4) "The first box is larger than the second one." - если вторая коробка может быть положена в первую,
+ *	5) "Boxes are incomparable." - во всех остальных случаях.
  *
  *	[ input 1]: 1 2 3 3 2 1
  *	[output 1]: Boxes are equal.
@@ -46,7 +46,7 @@ package by.itstep.javatraining.revision.task;
  */
 
 public class Task06 {
-    public static String task06(int a1, int b1, int c1, int a2, int b2, int c2) {
+    public static String start(int a1, int b1, int c1, int a2, int b2, int c2) {
         return "Error.";
     }
 }
