@@ -27,8 +27,8 @@ package by.itstep.javatraining.revision.task;
  *	[ input 2]: 16 18 20
  *	[output 2]: 27
  *
- *	[ input 3]: 19 15 23
- *	[output 3]: 30
+ *	[ input 3]: 1 1 1
+ *	[output 3]: 3
  *
  *	[ input 4]: -5 15 23
  *	[output 4]: 0
